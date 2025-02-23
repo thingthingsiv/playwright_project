@@ -21,6 +21,7 @@ def test_addcart():
         assert "cart.html" in page.url, "Cart empty"
         
         print("Cart not empty")
+        page.screenshot(path="cart" + ".png")
         browser.close()
 
 if __name__ == "__main__":

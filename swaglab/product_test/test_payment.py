@@ -21,6 +21,7 @@ def test_payment():
         assert "checkout-step-two.html" in page.url, "Checkout failed"
         
         print("Checkout successful")
+        page.screenshot(path="checkout:payment" + ".png")
         browser.close()
 
 if __name__ == "__main__":

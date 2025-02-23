@@ -20,6 +20,7 @@ def test_login():
         context.storage_state(path="auth.json")
 
         print("Login successful")
+        page.screenshot(path="login" + ".png")
         browser.close()
 
 if __name__ == "__main__":
