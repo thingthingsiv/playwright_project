@@ -13,7 +13,7 @@ def dropdown():
         page.select_option('select[id="dropdown"]', "2")
 
         
-        page.screenshot(path="dropdown.png")
+        page.screenshot(path="screenshort/dropdown.png")
         browser.close()
 
 if __name__ == "__main__":

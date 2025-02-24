@@ -18,7 +18,7 @@ def form():
         assert "secure" in page.url, "Login failed"
         print("Login successful")
 
-        page.screenshot(path="login.png")
+        page.screenshot(path="screnshort/login.png")
         browser.close()
 
         
